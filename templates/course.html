@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Python: Beginner to Pro</title>
+    <style>
+        #banner {
+            height: 500px;
+            width: 70%;
+            object-fit: cover;
+            /*     margin-left: 40px; */
+            margin: 0 auto;
+            margin-bottom: 16px;
+        }
+
+        .mybtn {
+            border: 2px solid #00ffc3;
+            border-radius: 12px;
+            padding: 14px 36px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: transparent;
+            color: inherit;
+            transition: all .5s;
+        }
+
+        .gr {
+            border-color: #00ffc3;
+        }
+
+        .gr:hover {
+            background: #00ffc3;
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="text-white" style="background-color: #1e2d40;">
+    {% include 'navbar.html' %}
+    <div class="container">
+        <h1 class="text-center mt-2 mb-4" style="color: rgb(0,255,195);">
+            Python: Beginner to Pro
+        </h1>
+        <br>
+        <img class="img-fluid mx-auto d-block" id="banner"
+            src="https://my-flask-website.mihirpesswani.repl.co/static/python.jpg" alt="banner">
+        <br>
+        <div class="row" style="margin-bottom:32px">
+            <div class="text-center">
+                <p class="lead">
+                    “Python Beginner to Pro” is our flagship Python course that delivers unique learning with 3
+                    immersive courses packed into 1 easy-to-learn package:
+                </p>
+                <p class="lead">
+                <ul>
+                    <li>
+                        First, prepare yourself by learning the basics and perfect your knowledge of the language with a
+                        beginner to pro Python programming course.
+                    </li>
+                    <li>
+                        Next, build on your knowledge with a practical, applied and hands-on Python course with over 20
+                        real-world applications problems and 100 coding exercises to help you learn in a practical, easy
+                        and fun way. These will be invaluable projects to showcase during future job interviews!
+                    </li>
+                    <li>
+                        Finally, push your boundaries with a data science and machine-learning course covering practical
+                        machine learning applications using Python. Dive into real-life situations and solve real-world
+                        challenges.
+                    </li>
+                </ul>
+            </p class="lead">
+
+                <p>
+
+                    Who this course is for:
+
+                    Anyone who wants to learn Python.
+                    Beginners who have just started to learn Python
+                    Professionals who want to learn Python through Real World Applications
+                    Professionals who want to obtain particular skill, such as Web Scraping, Working With Databases,
+                    Build Websites, etc
+                </p>
+            </div>
+          <br>
+          <br>
+          <hr class="solid">
+          <h2 class="text-center mt-2 mb-4" style="color: rgb(0,255,195);">Buy the Course</h2>
+          <div class="justify-content-start col-md-6">
+            <form>
+  <div class="mb-3">
+    <label for="fname" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="fname">
+    <div class="mb-3">
+    <label for="lname" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="lname">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Want future updates</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Checkout</button>
+</form>
+</div>
+        </div>
+          
+{% include 'footer.html' %}
+</body>
+
+</html>

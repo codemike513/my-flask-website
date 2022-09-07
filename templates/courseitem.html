@@ -1,0 +1,16 @@
+<div class="border-bottom row" style="margin-bottom:16px;padding-bottom:8px;">
+  <div class="col-10">
+    <h4 
+      style="color:rgb(220,220,220); margin-bottom:4px;">
+      {{course['title']}}
+    </h4>
+    {% if 'price' in course %}
+    <div>
+      <b>Price:</b> {{course['price']}}
+    </div>
+    {% endif %}
+  </div>
+  <div class="col-2 padding-right:16px">
+    <a href="{{ url_for('course')}}" type="button" class="btn btn-outline-info float-right align-middle" >Buy Now</a>
+  </div>
+</div>
